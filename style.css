@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    width: 140px;
+    height: 64px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.btn {
+    padding-bottom: 12px;
+    padding-left: 13.5px;
+    padding-right: 13.5px;
+    padding-top: 12px;
+    text-align: left;
+    color: white;
+    background-color: #ED1C24;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    position: fixed;
+    gap: 50px;
+}
+
+.btn ion-icon {
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+ion-icon {
+    font-size: 30px;
+    color: #fff;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+ul {
+    margin-left: 15rem;
+}
+
+.imgg {
+    margin-top: 8rem;
+}
+
+.category {
+    height: 350px;
+    width: 200px;
+}
+
+.content {
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.category-img {
+    width: 230px;
+    height: 350px;
+    object-fit: cover;
+}
+.h1one {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2.5rem;
+}
+
+.h2one {
+    font-family: 'Futura', 'Arial Narrow', sans-serif;
+    letter-spacing: 0.5em;
+    font-weight: bold;
+    color: rgb(237, 28, 36);
+    background-color: black;
+    text-transform: uppercase;
+}
+
+.h1two {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+
+.btn1 {
+    padding-bottom: 12px;
+    padding-left: 13.5px;
+    padding-right: 13.5px;
+    padding-top: 12px;
+    text-align: left;
+    color: white;
+    background-color: transparent;
+    border-color: grey;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.description {
+    display: flex;
+}
+
+.food {
+    width: 642px;
+    height: 433px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.text {
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 642px;
+    height: 433px;
+}
+
+.para {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+  .menu-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .menu-card {
+      flex: 1 1 calc(33.333% - 20px); /* 3 in a line */
+      border-radius: 8px;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .menu-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .menu-content {
+      padding: 15px;
+    }
+
+    .menu-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 10px 0 5px;
+    }
+
+    .menu-details {
+      font-size: 14px;
+      color: #ccc;
+      margin-bottom: 10px;
+    }
+
+    .menu-price {
+      font-size: 16px;
+      font-weight: bold;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .add-button {
+      font-size: 20px;
+      background-color: red;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+  
+    body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.footer {
+  background-color: #111;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-column {
+  flex: 1;
+  /* margin: 20px; */
+  min-width: 220px;
+}
+
+.logoo {
+  width: 180px;
+  margin-bottom: 15px;
+}
+
+.para1 {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #ccc;
+  margin-top: 2rem;
+}
+
+.policies a {
+  font-size: 13px;
+  color: #aaa;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.site-links .ull {
+  list-style: none;
+  padding: 0;
+}
+
+.site-links .ull .item a {
+  color: #ccc;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.contact p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+.social-icons a img {
+  width: 35px;
+  margin-right: 10px;
+}
+
+.store-buttons img {
+  width: 140px;
+  margin: 10px 0;
+}
+
+.powered {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.powered a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-column h4 {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.logoo {
+    width: 140px;
+    height: 64px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+ 
