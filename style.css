@@ -21,16 +21,16 @@ body {
 }
 
 .btn {
-    padding-bottom: 12px;
-    padding-left: 13.5px;
-    padding-right: 13.5px;
-    padding-top: 12px;
-    text-align: left;
-    color: white;
-    background-color: #ED1C24;
+       display: inline-flex; /* Keep text and icon in one line */
+    align-items: center; /* Center vertically */
+    background-color: #e50914; /* Red background */
+    color: white; /* White text */
     border: none;
-    border-radius: 50px;
-    font-size: 20px;
+    border-radius: 50px; /* Oval shape */
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 nav {
