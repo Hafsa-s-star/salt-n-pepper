@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
+     
 }
 
 body {
@@ -17,6 +17,7 @@ body {
     height: 64px;
     margin-top: 20px;
     margin-left: 80px;
+      overflow: hidden;
 }
 
 .btn {
