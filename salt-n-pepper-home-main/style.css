@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+     
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    
+}
+
+.logo {
+    width: 140px;
+    height: 64px;
+    margin-top: 20px;
+    margin-left: 80px;
+      overflow: hidden;
+}
+
+.btn {
+    display: inline-flex; /* Keep text and icon in one line */
+    align-items: center; /* Center vertically */
+    background-color: #e50914; /* Red background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 50px; /* Oval shape */
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    position: fixed;
+    gap: 50px;
+}
+
+.btn ion-icon {
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+ion-icon {
+    font-size: 30px;
+    color: #fff;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+ul {
+    margin-left: 15rem;
+}
+/* old coding ended */
+/* new coding */
+
+hr {
+    background-color: grey;
+    color: #333;
+}
+
+.ul2 {
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 0px !important;
+
+}
+
+li a {
+    text-decoration: none;
+    color: #333;
+}
+
+li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.nav2 {
+    margin-top: 8rem;
+}
+
+.active {
+    color: white;
+    text-decoration: underline;
+}
+
+/* old coding start */
+.footer {
+    background-color: #111;
+    padding: 40px 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-column {
+    flex: 1;
+    /* margin: 20px; */
+    min-width: 220px;
+  }
+  
+  .logoo {
+    width: 180px;
+    margin-bottom: 15px;
+  }
+  
+  .para1 {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ccc;
+    margin-top: 2rem;
+  }
+  
+  .policies a {
+    font-size: 13px;
+    color: #aaa;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .site-links .ull {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .site-links .ull .item a {
+    color: #ccc;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .contact p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ccc;
+  }
+  
+  .social-icons a img {
+    width: 35px;
+    margin-right: 10px;
+  }
+  
+  .store-buttons img {
+    width: 140px;
+    margin: 10px 0;
+  }
+  
+  .powered {
+    font-size: 12px;
+    color: #aaa;
+  }
+  
+  .powered a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-column h4 {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .copyright {
+      text-align: center;
+      margin-top: 10rem;
+  }
+  
+  .logoo {
+      width: 140px;
+      height: 64px;
+      margin-top: 20px;
+      margin-left: 80px;
+  }
+
+  .menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+   
+  
+  .menu-card {
+    flex: 1 1 calc(33.333% - 20px); /* 3 in a line */
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .menu-card img {
+    width: 363px;
+    height: 225px;
+    object-fit: cover;
+  }
+
+  .menu-content {
+    padding: 15px;
+  }
+
+  .menu-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+  }
+
+  .menu-details {
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 10px;
+  }
+
+  .menu-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+
+  .add-button {
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+/* Existing styles here ... */
+
+/* =================== Responsive Design =================== */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .logo {
+        margin-left: 0;
+        margin-top: 10px;
+        width: 100px;
+        height: auto;
+    }
+
+    ul {
+        margin-left: 0;
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .btn {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    .menu-container {
+        flex-direction: column; /* Stack menu cards vertically */
+        gap: 15px;
+        align-items: center;
+    }
+
+    .menu-card {
+        flex: 1 1 100%;
+        width: 90%; /* Reduce width on small screens */
+    }
+
+    .menu-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer-column {
+        min-width: 100%;
+        text-align: center;
+    }
+
+    .logoo {
+        margin: 0 auto 10px auto;
+    }
+
+    .social-icons a img {
+        width: 30px;
+    }
+
+    .store-buttons img {
+        width: 120px;
+    }
+
+    .copyright {
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    nav {
+        gap: 10px;
+    }
+
+    .menu-title {
+        font-size: 16px;
+    }
+
+    .menu-details,
+    .menu-price {
+        font-size: 13px;
+    }
+
+    .add-button {
+        font-size: 16px;
+        padding: 4px 8px;
+    }
+}
+/* Responsive Food Navbar */
+@media (max-width: 768px) {
+    .ul2 {
+        flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .ul2 li {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .ul2 {
+        overflow-x: auto; /* Horizontal scroll on very small screens */
+        flex-wrap: nowrap; /* Keep items in a row */
+        gap: 20px;
+        padding: 10px 0;
+        scrollbar-width: none; /* Hide scrollbar for Firefox */
+    }
+
+    .ul2::-webkit-scrollbar {
+        display: none; /* Hide scrollbar for Chrome/Safari */
+    }
+}
